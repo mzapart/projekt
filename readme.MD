@@ -1,15 +1,8 @@
-Hello Java and GIT
+Hello  GIT
 ------------------
 
-- assign limit
-- block credit card
-- withdraw
-  - if card not blocked
-  - can afford
-- repay debt
+-nothing
 
 tech requirement
 ----------------
-
-- java >= 8
-- maven
+- none
