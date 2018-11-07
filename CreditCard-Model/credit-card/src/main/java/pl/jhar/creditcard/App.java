@@ -1,4 +1,4 @@
-package pl.mzapa.creditcard;
+package pl.jhar.creditcard;
 
 /**
  * Hello world!
