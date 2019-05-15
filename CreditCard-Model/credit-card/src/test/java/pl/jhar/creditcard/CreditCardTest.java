@@ -25,6 +25,17 @@ public class CreditCardTest {
         card.assignLimit(2000);
         card.withdraw(200);
         
-        Assert.assertEquals(1800, card.getBallance());
+        Assert.assertTrue(card.getBalance2XD() == 1800);
+    }
+    
+    @Test
+    public void repayDebt() {
+        CreditCard card = new CreditCard();
+        card.assignLimit(2500);
+        card.withdraw(1000);
+        card.withdraw(1000);
+        card.repay(500);
+    
+        Assert.assertTrue(card.getBallance() == 2000);
     }
 }
